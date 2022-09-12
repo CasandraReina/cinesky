@@ -4,10 +4,10 @@ class Header extends React.Component{
     {
         return(
             <header>
-        <div class="contenedor">
-            <h2 class="logotipo">CINESKY</h2>
+        <div className="contenedor">
+            <h2 className="logotipo">CINESKY</h2>
             <nav>
-                <a href="#" class="active">Inicio</a>
+                <a href="#" className="active">Inicio</a>
                 <a href="peliculas.html">Cartelera</a>
                 <a href="#">Mas Recientes</a>
                 <a href="#">Mi Lista</a>
