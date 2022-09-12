@@ -1,6 +1,6 @@
 import React from "react";
 
-class Banner extends React.Component{
+class Main extends React.Component{
 render(){
     return(
         <div className="PortadaCine">
@@ -22,4 +22,4 @@ render(){
     )
 }
 }
-export default Banner;
+export default Main;

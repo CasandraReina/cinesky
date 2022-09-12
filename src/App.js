@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
-import Banner from './Banner.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
     <>
      <Header/>
-     <Banner/>
+     <Main/>
+     <Footer/>
     </>
   );
 }
