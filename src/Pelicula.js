@@ -1,4 +1,10 @@
 import React from "react";
+import Pelicula1 from './img/Pelicula1.jpg';
+import Pelicula2 from './img/Pelicula2.jpg';
+import Pelicula3 from './img/Pelicula3.jpg';
+import Pelicula4 from './img/Pelicula4.jpg';
+import Pelicula5 from './img/Pelicula5.jpg';
+
 class Pelicula extends React.Component{
     render(){
         return(
@@ -6,7 +12,7 @@ class Pelicula extends React.Component{
           <div className="PeliculasRecientes">
         
            <article className="Peliculas1">
-             <img src="./img/Pelicula1.jpg" alt="" className="Icono"/>
+             <img src= {Pelicula1} alt="" className="Icono"/>
             <ul>
              <h1 className="TituloPelicula">RED</h1>
              <p className="Genero">PG
@@ -28,7 +34,7 @@ class Pelicula extends React.Component{
         </article>
         
         <article className="Peliculas2">
-          <img src="./img/Pelicula2.jpg" alt="" className="Icono"/>
+          <img src={Pelicula2} alt="" className="Icono"/>
           <ul>
             <h1 className="TituloPelicula">PREY</h1>
             <p className="Genero">R
@@ -50,7 +56,7 @@ class Pelicula extends React.Component{
           </article>
         
           <article className="Peliculas3">
-            <img src="./img/Pelicula3.jpg" alt="" className="Icono"/>
+            <img src={Pelicula3} alt="" className="Icono"/>
             <ul>
             <h1 className="TituloPelicula">Lightyear</h1>
             <p className="Genero">PG-13
@@ -73,7 +79,7 @@ class Pelicula extends React.Component{
             </article>
         
             <article className="Peliculas4">
-              <img src="./img/Pelicula4.jpg" alt="" className="Icono"/>
+              <img src={Pelicula4} alt="" className="Icono"/>
               <ul>
               <h1 class="TituloPelicula">Spider-Man: No Way Home</h1>
               <p class="Genero">PG-13
@@ -96,7 +102,7 @@ class Pelicula extends React.Component{
               </article>
         
               <article className="Peliculas5">
-                <img src="./img/Pelicula5.jpg" alt="" className="Icono"/>
+                <img src={Pelicula5} alt="" className="Icono"/>
                 <ul>
                 <h1 className="TituloPelicula">Minions: The Rise of Gru</h1>
                 <p className="Genero">PG
