@@ -20,29 +20,29 @@
   }
   
   header{
-    padding: 15px 0;
-}
-header .contenedor {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header .logotipo {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: normal;
-    color: var(--rojo);
-    font-size: 50px;
-}
-header nav a {
-    color: rgba(240, 248, 255, 0.616);
-    text-decoration: none;
-    margin-right: 18px;
-    font-size: 18px;
-}
-header nav a:hover,
-header nav a.active {
-    color: white;
-}
+      padding: 15px 0;
+  }
+  header .contenedor {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  header .logotipo {
+      font-family: 'Bebas Neue', cursive;
+      font-weight: normal;
+      color: var(--rojo);
+      font-size: 50px;
+  }
+  header nav a {
+      color: rgba(240, 248, 255, 0.616);
+      text-decoration: none;
+      margin-right: 18px;
+      font-size: 18px;
+  }
+  header nav a:hover,
+  header nav a.active {
+      color: white;
+  }
   
   /* Portada del Cine */
   .PortadaCine {

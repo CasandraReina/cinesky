@@ -1,15 +1,15 @@
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+//import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import React from "react";
 
 class HeaderPelicula extends React.Component{
 render(){
     return(
-      <header class="Fondo">
-      <div class="contenedor">
-          <h4 class="logotipo">CINESKY</h4>
+      <header className="Fondo">
+      <div className="contenedor">
+          <h4 className="logotipo">CINESKY</h4>
           <nav>
-              <a href="index.html">Inicio</a>
-              <a href="peliculas.html" class="active">Cartelera</a>
+              <a href="./PaginaPrincipal.js">Inicio</a>
+              <a href="/SegundaPagina.js" className="active">Cartelera</a>
               <a href="#">Mas Recientes</a>
               <a href="#">Mi Lista</a>
           </nav>
